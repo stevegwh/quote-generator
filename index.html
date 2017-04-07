@@ -1,0 +1,30 @@
+<head>
+    <title>Quote Generator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheet.css" />
+    <link href="assets/css/gsdk.css" rel="stylesheet" />
+    <link href="assets/css/demo.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" id="css" href="">
+</head>
+
+<body>
+    <div class="container">
+        <div id="quote-cont" class="jumbotron">
+            <div id="quote-area">
+                <div id="quote-body"></div>
+                <div id="quote-mod" style="display:hidden;"></div>
+                <div id="author"></div>
+            </div>
+        </div>
+        <div id="buttons">
+            <div id="quote-button" class="btn btn-round btn-warning btn-fill">New Quote</div>
+            <div id="reverse" class="btn btn-danger btn-round btn-fill">Reverse me!</div>
+            <div id="foxtrot" class="btn btn-success btn-fill btn-round">Military Speak!</div>
+            <div id="1337-sp33k" class="btn btn-default btn-fill btn-round">1337 sp33k</div>
+            <div class="twitter-share-button btn btn-info btn-fill btn-round" onclick="tweetIt()" target="_blank" data-size="large">
+                Tweet</a>
+            </div>
+        </div>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+</body>

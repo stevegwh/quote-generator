@@ -1,0 +1,10 @@
+body {
+  font-family: courier;
+  color: black;
+  background-color: black;
+  background-image: url("http://cdn.wallpapersafari.com/39/43/N4nvdR.png");
+}
+.jumbotron {
+  margin: auto 0;
+  background: rgba(255, 255, 255, 1);
+}

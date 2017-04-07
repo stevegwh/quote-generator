@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto');
+body {
+  padding: 0;
+  margin: auto 0;
+  margin-top: 10%;
+  background-image: url("http://media.idownloadblog.com/wp-content/uploads/2016/06/macOS-Sierra-Wallpaper-Macbook-Wallpaper.jpg");
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.5em;
+  color: black;
+}
+.container {
+  text-align: center;
+}
+
+#quote-cont {
+  padding: 1vmax;
+  margin-bottom: 3px;
+  text-align: center;
+}
+
+.jumbotron {
+  margin: auto 0;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+p {
+  font-size: 200px;
+
+}
+
+#author {
+  text-align: right;
+  font-family: 1em;
+}
